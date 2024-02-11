@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Payment</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+		integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" type="text/css" href="payment.css">
+</head>
+<style>
+
+	.bgimg {
+		height: 500px;
+		background: url('images/banner-img.jpg');
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+
+	}
+
+	.overlay {
+		width: 100%;
+		height: 100%;
+		font-size: 26px;
+		color: white;
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		align-items: center;
+		background-color: rgba(0, 0, 0, 0, 5);
+	}
+
+	.overlay a {
+		color: white;
+	}
+
+	.overlay h1 {
+		color: white;
+		font-family: 'Satisfy', cursive;
+	}
+
+	.contact
+{
+  position: relative;
+  min-height: 100vh;
+  padding: 50px 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+}
+
+.contact .content
+{
+   max-width: 800px;
+   text-align: center;
+}
+.contact .content h2
+{
+   font-size: 36px;
+   font-weight: 500;
+   color: orange;
+   font-family: 'Satisfy', cursive;
+}
+
+.contact .content p
+{
+   font-weight: 300;
+   color: black;
+}
+
+.container{
+	border: 2px solid orange;
+}
+	footer {
+		background-color: black;
+		margin-top: 10px;
+	}
+
+	.footercontainer {
+		width: 100%;
+		padding: 70px 30px 20px;
+	}
+
+	.socialicons {
+		display: flex;
+		justify-content: center;
+	}
+
+	.socialicons a {
+		padding: 10px;
+		background-color: white;
+		margin: 10px;
+		border-radius: 50%;
+	}
+
+	.socialicons a i {
+		font-size: 2em;
+		color: black;
+		opacity: 0.9;
+	}
+
+	.socialicons a:hover {
+		background-color: #111;
+		transition: 0.5s;
+	}
+
+	.socialicons a:hover i {
+		color: white;
+		transition: 0.5s;
+	}
+
+	.footerbottom {
+		background-color: #000;
+		padding: 20px;
+		text-align: center;
+	}
+
+	.footerbottom p {
+		color: white;
+		text-align: center;
+		margin: 10px;
+	}
+
+	.designer {
+		opacity: 0.7;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+		font-weight: 400;
+		margin: 0px 5px;
+	}
+
+	@media (max-width: 700px) {
+		.footernav ul {
+			flex-direction: column;
+		}
+	}
+</style>
+
+<body>
+	<div class="bgimg">
+		<div class="overlay">
+			<h1><b>PAYMENT</b></h1>
+			<a href="index.html"><i class="fa fa-home"> HOME ..</i></a>
+		</div>
+	</div>
+	<section class="contact">
+	<div class="content">
+		<h2><b>Payment Here</b></h2>
+	</div>
+	<header>
+		<div class="container">
+			<div class="left">
+				<!-- <h3>PAYMENTS</h3> -->
+				<form>
+					Full name
+					<input type="text" name="" placeholder="Enter name">
+					Email
+					<input type="text" name="" placeholder="Enter email">
+
+					Phone
+					<input type="text" name="" placeholder="Enter phone number">
+
+					Amount to Pay
+					<input type="text" name="" placeholder="Enter Amount"><br>
+
+					Payments Option
+					<select>
+						<option>Select..</option>
+						<option>Cash</option>
+						<option>UPI</option>
+						<option>Credit Card</option>
+						<option>Debit Card</option>
+						<option>Net Banking</option>
+					</select>
+				</form>
+				<input type="submit" name="" value="Pay">
+			</div>
+		</div>
+	</header>
+</section>
+	<footer>
+		<div class="footercontainer">
+			<div class="socialicons">
+				<a href="facebook.com"><i class="fa-brands fa-facebook"></i></a>
+				<a href="instagram.com"><i class="fa-brands fa-instagram"></i></a>
+				<a href="twitter.com"><i class="fa-brands fa-twitter"></i></a>
+				<a href="youtube.com"><i class="fa-brands fa-youtube"></i></a>
+			</div>
+			<div class="footerbottom">
+				<p>Copyright &copy;2023; Designed by <span class="designer">Shreyashi,Srijanti</span> </p>
+			</div>
+		</div>
+	</footer>
+
+</body>
+
+</html>
